@@ -45,7 +45,3 @@ A modern, responsive portfolio website built with **Next.js 15**, **Tailwind CSS
 - **Email**: yoratamrat@gmail.com
 - **LinkedIn**: [Yordanos Tamrat](https://www.linkedin.com/in/yordanos-tamrat/)
 - **GitHub**: [Jordan-Tamrat](https://github.com/Jordan-Tamrat)
-
----
-
-Developed with ❤️ by **Yordanos Tamrat**
