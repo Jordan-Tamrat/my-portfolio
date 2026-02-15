@@ -1,5 +1,7 @@
 # Yordanos Tamrat - Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://yordanos-tamrat.vercel.app/)
+
 A modern, responsive portfolio website built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**.
 
 ## 🚀 Features
@@ -40,7 +42,7 @@ A modern, responsive portfolio website built with **Next.js 15**, **Tailwind CSS
 
 ## 📬 Contact
 
-- **Email**: yordanostamrat22@gmail.com
+- **Email**: yoratamrat@gmail.com
 - **LinkedIn**: [Yordanos Tamrat](https://www.linkedin.com/in/yordanos-tamrat/)
 - **GitHub**: [Jordan-Tamrat](https://github.com/Jordan-Tamrat)
 
