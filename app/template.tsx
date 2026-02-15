@@ -18,7 +18,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
     return {
       initial: { opacity: 0, clipPath: 'circle(0% at 50% 50%)' },
       animate: { opacity: 1, clipPath: 'circle(150% at 50% 50%)' },
-      transition: { duration: 0.8, ease: 'easeInOut' }
+      transition: { duration: 0.8, ease: 'easeInOut' as const }
     };
   };
 
