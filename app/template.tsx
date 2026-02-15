@@ -11,7 +11,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       return {
         initial: { opacity: 0, scale: 1.05, filter: 'blur(5px)' },
         animate: { opacity: 1, scale: 1, filter: 'blur(0px)' },
-        transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }
+        transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const }
       };
     }
     
