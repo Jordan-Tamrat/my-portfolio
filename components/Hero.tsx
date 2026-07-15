@@ -61,7 +61,7 @@ const Hero = () => {
               <ArrowRight size={20} />
             </a>
             <a 
-              href="http://drive.google.com/file/d/1yy0kvQ4-m3Y6lkVgZG90sDd4HbUPb999/view" 
+              href="https://drive.google.com/file/d/1gqjjxpwpQycmv9SxmzbgWhgI4RCx6mAq/view" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 rounded-full font-medium hover:border-blue-600 hover:text-blue-600 dark:hover:border-blue-400 dark:hover:text-blue-400 hover:shadow-md transition-all flex items-center justify-center gap-2 bg-white/50 dark:bg-transparent"
