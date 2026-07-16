@@ -6,6 +6,14 @@ import Image from 'next/image';
 
 const projects = [
   {
+    title: 'Sightline Performance Visualizer',
+    description: 'A full-stack web performance visualization tool using Google Lighthouse and Gemini AI for automated audits and actionable insights.',
+    image: '/projects/sightline.png',
+    tags: ['TypeScript', 'Next.js', 'Lighthouse', 'Gemini AI'],
+    github: 'https://github.com/Jordan-Tamrat/sightline-performance-visualizer',
+    live: 'https://sightline-performance-visualizer.vercel.app',
+  },
+  {
     title: 'Find Any Song by Its Lyrics',
     description: 'A lightweight Node.js web app that helps users identify songs by typing any part of the lyrics. It combines Genius lyrics search with YouTube video results.',
     image: '/projects/find-song.png?v=2',

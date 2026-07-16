@@ -55,19 +55,20 @@ const Hero = () => {
           >
             <a 
               href="projects"
-              className="px-8 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
+              className="group relative px-8 py-3 bg-blue-600 text-white rounded-full font-medium overflow-hidden flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-shadow"
             >
-              View Projects
-              <ArrowRight size={20} />
+              <span className="absolute inset-0 bg-blue-800 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300 ease-out rounded-full" />
+              <span className="relative">View Projects</span>
+              <ArrowRight size={20} className="relative transition-transform duration-300 group-hover:translate-x-1" />
             </a>
             <a 
               href="https://drive.google.com/file/d/1gqjjxpwpQycmv9SxmzbgWhgI4RCx6mAq/view" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-3 border-2 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 rounded-full font-medium hover:border-blue-600 hover:text-blue-600 dark:hover:border-blue-400 dark:hover:text-blue-400 hover:shadow-md transition-all flex items-center justify-center gap-2 bg-white/50 dark:bg-transparent"
+              className="group px-8 py-3 border-2 border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 rounded-full font-medium hover:border-blue-600 hover:text-blue-600 dark:hover:border-blue-400 dark:hover:text-blue-400 hover:shadow-md transition-all flex items-center justify-center gap-2 bg-white/50 dark:bg-transparent"
             >
               Resume
-              <Download size={20} />
+              <Download size={20} className="transition-transform duration-300 group-hover:translate-y-1" />
             </a>
           </motion.div>
         </motion.div>
@@ -81,7 +82,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-blue-600 rounded-full opacity-20 blur-3xl animate-pulse dark:opacity-30"></div>
           <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl">
             <Image
-              src="/profile.jpg"
+              src="/profile_picture.JPG"
               alt="Yordanos Tamrat"
               fill
               className="object-cover"

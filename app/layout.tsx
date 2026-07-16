@@ -19,6 +19,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Yordanos Tamrat | Web Developer",
   description: "Portfolio of Yordanos Tamrat, a Web Developer & Blockchain Enthusiast.",
+  icons: {
+    icon: "/profile_picture.JPG",
+    apple: "/profile_picture.JPG",
+  },
 };
 
 export default function RootLayout({
